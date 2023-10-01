@@ -17,8 +17,8 @@ function Cards() {
                     path='/services'
                     />
                     <CardItem
-                    src="images/img-1.jpg"
-                    text="Feel the nature and see what's beyond beauty"
+                    src="images/Colored-Canyon.jpg"
+                    text="Feel the nature and see what's beyond beauty of Nuweiba in the Color Canyon"
                     label="Nature"
                     path='/services'
                     />
@@ -26,21 +26,21 @@ function Cards() {
                 <ul className='cards__items'>
                     
                     <CardItem
-                    src="images/img-2.jpg"
-                    text="Travel through the Island of Bali in a Private Cruise"
-                    label="Luxary"
-                    path='/services'
-                    />
-                    <CardItem
-                    src="images/img-3.jpg"
-                    text="Explore the hidden waterfall deep inside the Amazon Jungle"
+                    src="images/djara-cave.jpg"
+                    text="Explore El-Dakhla Oasis hidden Gem Djara Cave"
                     label="Adventure"
                     path='/services'
                     />
                     <CardItem
-                    src="images/img-4.jpg"
-                    text="Feel the nature and see what's beyond beauty"
-                    label="Skyscaping"
+                    src="images/Shali-Fortress.jpg"
+                    text="Enjoy the spectacular organic shapes of the remains of this 13th-century mud-brick fortress in Old Siwa"
+                    label="Landskaping"
+                    path='/services'
+                    />
+                    <CardItem
+                    src="images/Wadi-El-Weshwash.jpg"
+                    text="Enjoy the water like never before in Wadi El-Weshwash in Nuweina"
+                    label="Unique experience"
                     path='/services'
                     />
                 </ul>
