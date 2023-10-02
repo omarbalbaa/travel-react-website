@@ -13,10 +13,10 @@ function App() {
       <HashRouter basename="/">
         <Navbar />
         <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/Services" Component={Services} />
-          <Route path="/Products" Component={Products} />
-          <Route path="/sign-up" Component={SignUp} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Products" element={<Products />} />
+          <Route path="/sign-up" element={<SignUp />} />
         </Routes>
       </HashRouter>
     </>
