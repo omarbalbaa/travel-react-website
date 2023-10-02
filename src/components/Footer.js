@@ -64,7 +64,7 @@ function Footer() {
               Travel <i className="fab fa-typo3" />
             </Link>
           </div>
-          <small className="website-rights">Travel © 2023</small>
+          <small className="website-rights">Travel By BALBAA © 2023</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
