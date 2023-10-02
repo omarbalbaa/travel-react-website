@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from './components/pages/Home'
 import Services from './components/pages/Services';
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Router>
+      <HashRouter basename="/">
         <Navbar />
         <Routes>
           <Route path="/" exact Component={Home} />
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Products" exact Component={Products} />
           <Route path="/sign-up" exact Component={SignUp} />
         </Routes>
+        </HashRouter>
       </Router>
     </>
   );
