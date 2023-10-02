@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router> */}
       <HashRouter basename="/">
         <Navbar />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/sign-up" exact Component={SignUp} />
         </Routes>
         </HashRouter>
-      </Router>
+      {/* </Router> */}
     </>
   );
 }
