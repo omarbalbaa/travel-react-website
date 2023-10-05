@@ -26,7 +26,7 @@ function Cards() {
                 <ul className='cards__items'>
                     
                     <CardItem
-                    src="images/djara-cave.jpg"
+                    src="images/Djara-Cave.jpg"
                     text="Explore El-Dakhla Oasis hidden Gem Djara Cave"
                     label="Adventure"
                     path='https://www.google.com/maps/place/Djara+Cave+%D9%83%D9%87%D9%81+%D8%A7%D9%84%DA%86%D8%A7%D8%B1%D8%A9%E2%80%AD/@27.4031946,29.6373796,15z/data=!4m2!3m1!1s0x0:0x76e1f3bd1014524b?sa=X&ved=2ahUKEwi6msu7iML6AhUOWBoKHZbNBC4Q_BJ6BAhyEAU'
